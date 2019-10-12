@@ -5,18 +5,18 @@
 	  * There are two ways to define constants 1.- const 2.- define('const_name',const_val)
 	  * "const" defines constants at compile time, whereas "define" defines them at run time.  
 	  * The most "const"`s disadvantage is , const cannot be used to conditionally 
-	
-			if (...)
-			{
-		    	const FOO = 'BAR';    // Invalid
-			}
-			
-			// but
-			
-			if (...)
-			{
-				define('FOO', 'BAR'); // Valid
-			}
+
+	  	*	if (...)
+		*	{
+		*    	const FOO = 'BAR';    // Invalid
+		*	}
+		*	
+		*	// but
+		*	
+		*	if (...)
+		*	{
+		*		define('FOO', 'BAR'); // Valid
+		*	}
 	  */
 
 
